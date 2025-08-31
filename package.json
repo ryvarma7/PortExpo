@@ -1,7 +1,8 @@
 {
-  "name": "react-tailwind-starter",
+  "name": "portexpo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ryvarma7.github.io/PortExpo",
   "dependencies": {
     "lucide-react": "^0.542.0",
     "react": "^18.2.0",
@@ -13,6 +14,7 @@
     "@types/react": "^19.1.12",
     "@types/react-dom": "^19.1.9",
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.4.3"
   },
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
