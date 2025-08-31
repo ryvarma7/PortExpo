@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PortExpo/static/css/main.5314f393.css",
+    "main.js": "/PortExpo/static/js/main.61c08ad7.js",
+    "index.html": "/PortExpo/index.html",
+    "main.5314f393.css.map": "/PortExpo/static/css/main.5314f393.css.map",
+    "main.61c08ad7.js.map": "/PortExpo/static/js/main.61c08ad7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5314f393.css",
+    "static/js/main.61c08ad7.js"
+  ]
+}
